@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('medicos.avif'); /* Ajuste o caminho da imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilo para os itens da lista de usuários */
+  .lista-usuarios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .lista-usuarios li {
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lista-usuarios li span {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  /* Estilo para o link de voltar */
+  .link-voltar {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .link-voltar:hover {
+    text-decoration: underline;
+  }
+  
